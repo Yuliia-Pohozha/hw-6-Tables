@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <table class="w90p">
+      <caption>Table#2</caption>
+      <tr>
+        <td class="w40p" colspan="2">1-2</td>
+        <!-- <td>2</td> -->
+        <td class="w60p">3</td>
+      </tr>
+      <tr>
+        <td class="w28p">4</td>
+        <td class="w72p" colspan="2" rowspan="2">5-6-8-9
+          <table class="w80p">
+            <caption>Table#3</caption>
+            <tr>
+              <td>1</td>
+              <td rowspan="3">2-5-8</td>
+              <td class="h200" rowspan="2">3-6</td>
+            </tr>
+            <tr>
+              <td class="h200" rowspan="2">4-7</td>
+              <!-- <td>5</td> -->
+              <!-- <td>6</td> -->
+            </tr>
+            <tr>
+              <!-- <td>7</td> -->
+              <!-- <td>8</td> -->
+              <td>9</td>
+            </tr>
+          </table>
+        </td>
+        <!-- <td>6</td> -->
+      </tr>
+      <tr>
+        <td class="w28p">7</td>
+        <!-- <td>8</td> -->
+        <!-- <td>9</td> -->
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
